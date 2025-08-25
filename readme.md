@@ -5,6 +5,8 @@ This project provides a simple and fast way to crawl websites and generate markd
 
 ![Screenshot_6](https://github.com/user-attachments/assets/0ade4bdc-cae1-4430-bc32-8cb7b9265564)
 
+![Video Demo](https://github.com/user-attachments/assets/f858ecea-bb6f-4e32-a5df-51e0f46e77c0)
+
 ## Features
 
 - **FastAPI backend** serving API endpoints.
@@ -94,4 +96,5 @@ Contributions are welcome! Feel free to open issues or submit pull requests to e
 ## License
 
 MIT License
+
 
