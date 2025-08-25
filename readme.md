@@ -11,7 +11,8 @@ This project provides a simple and fast way to crawl websites and generate markd
 - Quick deployment and lightweight setup.
 
 <video width="600" controls>
-  <source src="./public/video.mp4" type="video/mp4">
+  <source src="https://imgur.com/a/2VJhDJR" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 
 ## Getting Started
