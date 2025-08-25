@@ -3,6 +3,8 @@
 A lightweight and cost-effective version of [Firecrawl](https://www.firecrawl.dev/) built with **FastAPI** and **crawl4ai**.
 This project provides a simple and fast way to crawl websites and generate markdown summaries via a user-friendly frontend.
 
+![Screenshot_6](https://github.com/user-attachments/assets/0ade4bdc-cae1-4430-bc32-8cb7b9265564)
+
 ## Features
 
 - **FastAPI backend** serving API endpoints.
@@ -11,9 +13,10 @@ This project provides a simple and fast way to crawl websites and generate markd
 - Quick deployment and lightweight setup.
 
 <video width="600" controls>
-  <source src="https://imgur.com/a/2VJhDJR" type="video/mp4">
+  <source src="https://github.com/user-attachments/assets/e6003739-51b0-4421-8f6f-1e948df0eeaa" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 ## Getting Started
 
@@ -91,3 +94,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests to e
 ## License
 
 MIT License
+
