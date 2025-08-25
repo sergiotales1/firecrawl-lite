@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crawler</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet" />
+  </head>
+  <body>
+    <h2>Type a url to scrap</h2>
+    <p>This will give you a markdown content of the page and the meta data</p>
+    <form method="post" action="/">
+      <input
+        type="text"
+        name="url"
+        placeholder="https://example.com"
+        value="{{ url or '' }}"
+      />
+      <button type="submit">RUN</button>
+    </form>
+
+    <div id="loader" style="display: none">
+      <img
+        src="https://media.tenor.com/0jneGal6j5IAAAAi/fire-free-fire.gif"
+        draggable="false"
+        alt="A GIF of a fire emoji"
+        width="200"
+        height="200"
+      />
+      <p id="loader-text"></p>
+    </div>
+    {% if crawled %}
+    <div class="result">
+      <div class="result-box">
+        <pre>{{ crawled.markdown }}</pre>
+      </div>
+      <div class="result-meta">
+        <p class="pre-title">Page Title:</p>
+        <p>{{ crawled.title }}</p>
+        <br />
+        <p class="pre-description">Page Description:</p>
+        <p>{{ crawled.description }}</p>
+      </div>
+    </div>
+    {% endif %}
+    <script src="{{ url_for('static', path='/script.js') }}"></script>
+  </body>
+</html>
